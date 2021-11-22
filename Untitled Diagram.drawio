@@ -1,1 +1,65 @@
-<mxfile host="app.diagrams.net" modified="2021-11-22T11:55:02.124Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" version="15.8.3" etag="mkXrimWVD6OJ0cMQ5dZb" type="github"><diagram id="sO-5-IXZXnhFO5N58XwL">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-11-22T12:41:17.809Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Safari/537.36" etag="4wd1P2Uuy7o4-sKHgxHu" version="15.8.3" type="github">
+  <diagram id="sO-5-IXZXnhFO5N58XwL" name="Page-1">
+    <mxGraphModel dx="782" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="yILxylklLLHCHK7-SIXm-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yILxylklLLHCHK7-SIXm-1" target="yILxylklLLHCHK7-SIXm-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yILxylklLLHCHK7-SIXm-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yILxylklLLHCHK7-SIXm-1" target="yILxylklLLHCHK7-SIXm-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="525" y="330" />
+              <mxPoint x="525" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yILxylklLLHCHK7-SIXm-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yILxylklLLHCHK7-SIXm-1" target="yILxylklLLHCHK7-SIXm-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yILxylklLLHCHK7-SIXm-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="yILxylklLLHCHK7-SIXm-1" target="yILxylklLLHCHK7-SIXm-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="295" y="330" />
+              <mxPoint x="295" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yILxylklLLHCHK7-SIXm-1" value="MEDICAL STORE MANAGEMENT SYSTEM" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="140" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yILxylklLLHCHK7-SIXm-2" value="PURCHASE MEDICINE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yILxylklLLHCHK7-SIXm-6" value="INFORMATION ABOUT MADICINE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yILxylklLLHCHK7-SIXm-8" value="STOCK OF THE&lt;br&gt;MEDICINE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yILxylklLLHCHK7-SIXm-10" value="ADD MEDICINE" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yILxylklLLHCHK7-SIXm-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="500" as="sourcePoint" />
+            <mxPoint x="360" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yILxylklLLHCHK7-SIXm-15" value="DELETE MEDICINE" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yILxylklLLHCHK7-SIXm-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" target="yILxylklLLHCHK7-SIXm-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="510" as="sourcePoint" />
+            <mxPoint x="500" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yILxylklLLHCHK7-SIXm-18" value="CHANGE MEDICINE DETAILS" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
