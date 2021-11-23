@@ -69,7 +69,7 @@ How:
 store management system improves the general efficiency of the organization by automating the entire system.The software helps in streamlining every element of a medical store. 
 
 
-##Detail requirements:
+## Detail requirements:
 
 |High Level Requirements|Low Level Requirements|
 |:----------------------|:------------------------|
