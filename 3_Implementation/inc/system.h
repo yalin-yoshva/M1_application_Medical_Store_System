@@ -1,17 +1,14 @@
-typedef struct Node_type node;
-
-struct Node_type{
-    u8 name[100];
-	u32 age;
-	u8 gender[10];
-	u32 id;
-    node *next;
-};
-
-void Add_patient(u8 name[],u32 age,u8 gender[], u32 id);
-void Edit_List(u32 id);
-void DeleteNode(u32 data);
-void Time_Reservation() ;
-void Cancel_Res(u32 ID);
-void Print_List(u32 id);
-void Print_Res();
+#include<stdio.h>
+ #include<string.h>
+ #include<ctype.h>
+ struct Medicine{
+   int id,price,quantity;
+   char medicneName[100],Company[100],Mfg_Date[11],Exp_Date[11],info[5000];
+  }m[100];
+ void PurchaseMedicine(int number);
+ void EnterInfoAboutMedicine(int number);
+ void StockOfMedicine(int number);
+ void KnowInfoAboutMedicine(int number);
+ void AddMedicineinStore(int number,struct Medicine m[]);
+ void DeleteMedicineStore(int number);
+ void ChangeMedicineDetails(int number);
