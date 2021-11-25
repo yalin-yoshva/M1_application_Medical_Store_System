@@ -1,19 +1,30 @@
-# Name of the project
-PROJECT_NAME = Medical store System
+# the compiler: gcc for C program, define as g++ for C++
+CC = gcc
+ 
+CFLAGS  = -g -Wall
+ 
+# The build target 
 
-# All source code files
-SRC = medical_store_system.c\
-src/system main.c
-OBJ = system main.o
-INC = inc
-CFLAGS = I$(INC)
-a.out:$(OBJ)
-   gcc $ -I$(INC)-o $@
-%.o:src%
-   gcc $^ -I$(INC)-c
-run : target
-   ./all.out
-clear:
-   rm all.out *.o src/*.o
-   
+BASEDIR = .
+SRC_DIR = $(BASEDIR)/src
+TEST_DIR = $(BASEDIR)/test
+OBJ_DIR = $(BASEDIR)
+
+TARGET = parkingLot
+TEST_TARGET = parkingLotTest
+ 
+all:
+		$(CC) $(CFLAGS) -o $(OBJ_DIR)/$(TARGET) $(SRC_DIR)/$(TARGET).c
+
+clean:
+		$(RM) $(BASEDIR)/$(TARGET) $(BASEDIR)/$(TEST_TARGET)
+
+run: all
+		./$(OBJ_DIR)/$(TARGET)
+
+build_test:
+		$(CC) $(CFLAGS) -o $(OBJ_DIR)/$(TEST_TARGET) $(TEST_DIR)/$(TEST_TARGET).c
+
+test: all
+		./$(OBJ_DIR)/$(TEST_TARGET)
 
