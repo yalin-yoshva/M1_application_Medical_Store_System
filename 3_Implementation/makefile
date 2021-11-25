@@ -10,8 +10,8 @@ SRC_DIR = $(BASEDIR)/src
 TEST_DIR = $(BASEDIR)/test
 OBJ_DIR = $(BASEDIR)
 
-TARGET = system
-TEST_TARGET = medical_store_system
+TARGET = medical_store_system
+TEST_TARGET = system
  
 all:
 		$(CC) $(CFLAGS) -o $(OBJ_DIR)/$(TARGET) $(SRC_DIR)/$(TARGET).c
