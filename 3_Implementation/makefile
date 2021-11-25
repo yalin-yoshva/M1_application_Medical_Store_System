@@ -11,7 +11,7 @@ TEST_DIR = $(BASEDIR)/test
 OBJ_DIR = $(BASEDIR)
 
 TARGET = system
-TEST_TARGET = systemTest
+TEST_TARGET = Medical_store_system
  
 all:
 		$(CC) $(CFLAGS) -o $(OBJ_DIR)/$(TARGET) $(SRC_DIR)/$(TARGET).c
