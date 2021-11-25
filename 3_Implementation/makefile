@@ -10,8 +10,8 @@ SRC_DIR = $(BASEDIR)/src
 TEST_DIR = $(BASEDIR)/test
 OBJ_DIR = $(BASEDIR)
 
-TARGET = parkingLot
-TEST_TARGET = parkingLotTest
+TARGET = system
+TEST_TARGET = systemTest
  
 all:
 		$(CC) $(CFLAGS) -o $(OBJ_DIR)/$(TARGET) $(SRC_DIR)/$(TARGET).c
